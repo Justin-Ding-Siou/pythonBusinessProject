@@ -21,7 +21,7 @@ class Person(object):
 
     def play(self):
         if self._age <= 16:
-            print('%s正在玩飞行棋.' % self._name)
+            print('%s正在玩飞行棋123.' % self._name)
         else:
             print('%s正在玩斗地主.' % self._name)
 
