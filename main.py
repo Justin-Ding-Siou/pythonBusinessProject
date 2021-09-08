@@ -10,4 +10,4 @@ def lcm(x, y):
     """求最小公倍数"""
     return x * y // gcd(x, y)
 
-print('hello world')
+print(gcd(20,100))
