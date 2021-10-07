@@ -24,8 +24,8 @@ print(new_poem2)
 ## 找到標點符號
 
 def lcs(S,T):
-    m = len(S) #找到長度
-    n = len(T) #找到長度
+    m = len(S) #找到長度 m
+    n = len(T) #找到長度 n
     counter = [[0]*(n+1) for x in range(m+1)]
     longest = 0
     lcs_set = set() # 建立空的集合
@@ -49,7 +49,7 @@ for s in ret:
     print (s)
 
 # 參考 leetcode https://blog.csdn.net/Orientliu96/article/details/103905680
-# 我還不懂怎麼寫
+# 我還不懂如何描述
 # 動態規劃
 
 

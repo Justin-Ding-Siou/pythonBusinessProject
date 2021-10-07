@@ -12,7 +12,7 @@ num = int(input("請輸入兩位數的 n: "))
 
 def factorial(num):
     if num < 0:
-        print("Factorial of negative num does not exsit")
+        print("階層不存在")
 
     elif num == 0:
         return 1
@@ -24,6 +24,6 @@ def factorial(num):
             num  -= 1
         return fact
 
-print("Factorial of ", num, "is", factorial(num))
+print("階層 ", num, "!", factorial(num))
 
 
