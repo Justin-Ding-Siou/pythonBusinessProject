@@ -76,8 +76,9 @@ for i in range(row):
         # x = (j+1) * multiplier
         #print(str(j + 1), '*', str(multiplier), '+', str(i + 1), end='')
         print(str(j + 1),  end='')
+        num = j + j + 1
 
-    y = (j + 1) * multiplier + (i+1)
+    y = num * multiplier + (i+1)
     print(' ' + '*', str(multiplier), '+', str(i+1), '=', str(y), end=' ')
     print()
 
