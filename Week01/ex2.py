@@ -21,8 +21,14 @@ new_poem2 = poem2.translate(punc_table)
 print(new_poem2)
 
 
-## 找到標點符號
+res = []
+for i in new_poem1:
+    if i in new_poem2:
+        res.append(i)
+print(res)
 
+
+## 找到標點符號，使用動態規劃求解
 def lcs(S,T):
     m = len(S) #找到長度 m
     n = len(T) #找到長度 n
@@ -42,15 +48,14 @@ def lcs(S,T):
                     lcs_set.add(S[i-c+1:i+1])
 
     return lcs_set
-
-# ex02
+# 參考 leetcode https://blog.csdn.net/Orientliu96/article/details/103905680
+# 我還不懂如何描述
+# 動態規劃
 ret = lcs(new_poem1, new_poem2)
 for s in ret:
     print (s)
 
-# 參考 leetcode https://blog.csdn.net/Orientliu96/article/details/103905680
-# 我還不懂如何描述
-# 動態規劃
+
 
 
 
@@ -62,14 +67,21 @@ for s in ret:
 # multiplier 固定陳法，X
 # start 單數遞增，常數
 # a * x + b = y，類似一元二次方程式
+row = int(input('請輸入行數: '))
+multiplier = int(input('輸入變數x: '))
 
-def solution():
-    x = 100
-    a = 2
-    b = 1
-    y = a*x+b
+for i in range(row):
+    for j in range(i + 1):
 
-print(solution())
+        # x = (j+1) * multiplier
+        #print(str(j + 1), '*', str(multiplier), '+', str(i + 1), end='')
+        print(str(j + 1),  end='')
+
+    y = (j + 1) * multiplier + (i+1)
+    print(' ' + '*', str(multiplier), '+', str(i+1), '=', str(y), end=' ')
+    print()
+
+
 
 
 
@@ -83,7 +95,7 @@ dicts = {'A': '10', 'B': '11', 'C': '12', 'D': '13', 'E': '14', 'F': '15', 'G': 
 'X': '31', 'Y': '32', 'Z': '33'}
 
 # input 一個英文字母
-ID = input("請輸入你的身分證的大寫英文字母: ").upper()
+ID = input("請輸入你的身分證的英文字母: ").upper()
 if(len(ID) == 1):
     print("只需輸入大寫的英文字母")
 # 輸入整串 身分證字號
@@ -99,41 +111,6 @@ for key in dicts:
         print(key, "->", dicts[key])
 
 
-ID = input("輸入身分證字號:").upper()
-if(len(ID) != 10):
-    print("錯誤，身分證字號為10碼")
-elif(not ID[0].isalpha()):
-    print("錯誤，第一碼須為英文字母")
-elif(not ID[1:].isdigit()):
-    print("錯誤，後九碼須為數字")
-elif(ID[1]< '1' or ID[2] < '2'):
-    print("錯誤，第一個數字須為 1 或 2")
-else:
-    C =  {'A':10, 'B':11, 'C':12, 'D':13, 'E':14,
-     'F':15, 'G':16, 'H':17, 'I':34, 'J':18,
-     'K':19, 'L':20, 'M':21, 'N':22, 'O':35,
-     'P':23, 'Q':24, 'R':25, 'S':26, 'T':27,
-     'U':28, 'V':29, 'W':32, 'X':30, 'Y':31,
-     'Z':33 }
-
-    # C[ID[0]]
-    # EX C[A] = 10 , ID[0] = C's key
-    # 15 // 2 ，取 餘 數
-    num = C[ID[0]]//10 + (C[ID[0]]%10)*9
-
-    # 第 2 到 第 10 的 數
-    # ID[-i])，讀 取 id 倒 數 第 一 個 數
-    # 10*1 + 9*2 + 8*3 ..........
-    for i in range(2,10):
-        num += int(ID[-i])*(i-1)
-
-    ans = 10 - num % 10
-    if(ans == int(ID[-1])):
-        print(ID + " 是正確的身分證字號")
-    elif(int(ID[-1]) == 0):
-        print(ID + " 是正確的身分證字號")
-    else:
-        print(ID + " 不是正確的身分證字號")
 
 
 
