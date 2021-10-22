@@ -35,10 +35,38 @@
 
 extra: 一些練習 四個完成
 
-
-
 3-3. 生成斐波那契数列的前20个数。
 
 3-4. 找出10000以内的完美数。
 
 3-5. 输出100以内所有的素数。
+
+### 10/14 Ex4
+
+List comprehension
+random.sample
+字串格式化
+enumerated finding index value
+
+### EX4 5
+
+Exercise 05: 寫一個程式， 直接使用附件檔案 periodic_table.txt 的 periodic_table dict
+找出週期表內的固態 (Phase = 'solid')元素。 輸出時， 先按是否有放射性(Radioactive)， 
+再依是否為金屬 (Metal) 遞減排序。
+
+輸出範例：
+
+87 Fr yes yes
+88 Ra yes yes
+89 Ac yes yes
+90 Th yes yes
+91 Pa yes yes
+92 U  yes yes
+84 Po yes
+85 At yes
+ 3 Li     yes
+ 4 Be     yes
+11 Na     yes
+...
+...
+...
