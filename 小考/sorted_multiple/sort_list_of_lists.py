@@ -1,5 +1,5 @@
 # Sorting on list of lists (or tuples, dicts)
-
+# Sorting on list of lists (or tuples, dicts)
 from operator import itemgetter
 
 lst = [['sarah', 'Jr', 30], ['jack', 'So', 20], ['rich', 'So', 20], ['bill', 'Jr', 20]]
@@ -11,6 +11,7 @@ print()
 # sort by item[1]
 print("sort2:", sorted(lst, key=itemgetter(1)))
 print("sort2:", sorted(lst, key=lambda e: e[1]))
+
 print()
 
 # sort by item[2]
@@ -42,6 +43,8 @@ lst1 = lst.copy()
 lst1.sort(key=lambda e: e[0], reverse=True)
 lst1.sort(key=lambda e: (e[1], -e[2]))
 print("sort7:", lst1)
+
+
 
 # For a completely generic option:
 data = lst.copy()

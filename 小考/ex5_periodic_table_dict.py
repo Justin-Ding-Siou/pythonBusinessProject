@@ -120,7 +120,7 @@ periodic_table = [
 ]
 
 solid_elements = [x for x in periodic_table if x['Phase'] == 'solid']
-# print(*solid_elements)
+print(*solid_elements)
 
 # sort by 'Radioactive', then by 'Metal' -- multiple passes
 solid_lst = sorted(solid_elements, key=lambda x: x['Metal'], reverse=True)
@@ -129,8 +129,9 @@ solid_lst.sort(key=lambda x: x['Radioactive'], reverse=True)
 # sort by 'Radioactive', then by 'Metal' -- one pass
 solid_lst2 = sorted(solid_elements, key=lambda x: (x['Radioactive'], x['Metal']), reverse=True)
 
-assert solid_lst == solid_lst2
 
 for x in solid_lst:
   print("{:>2d} {:2s} {:3s} {:3s}".format(x['AtomicNumber'], x['Symbol'], x["Radioactive"], x['Metal']))
-                 
+
+
+

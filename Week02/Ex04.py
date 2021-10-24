@@ -120,16 +120,12 @@ periodic_table = [
     {"AtomicNumber":117,"Element":"Tennessine","Symbol":"Ts","AtomicMass":295,"NumberofNeutrons":178,"NumberofProtons":117,"NumberofElectrons":117,"Period":7,"Group":17,"Phase":"artificial","Radioactive":"yes","Natural":"","Metal":"","Nonmetal":"yes","Metalloid":"","Type":"","AtomicRadius":"","Electronegativity":"","FirstIonization":"","Density":"","MeltingPoint":"","BoilingPoint":"","NumberOfIsotopes":"","Discoverer":"","Year":2010,"SpecificHeat":"","NumberofShells":7,"NumberofValence":7},
     {"AtomicNumber":118,"Element":"Oganesson","Symbol":"Og","AtomicMass":294,"NumberofNeutrons":176,"NumberofProtons":118,"NumberofElectrons":118,"Period":7,"Group":18,"Phase":"artificial","Radioactive":"yes","Natural":"","Metal":"","Nonmetal":"yes","Metalloid":"","Type":"Noble Gas","AtomicRadius":"","Electronegativity":"","FirstIonization":"","Density":"","MeltingPoint":"","BoilingPoint":"","NumberOfIsotopes":"","Discoverer":"","Year":2006,"SpecificHeat":"","NumberofShells":7,"NumberofValence":8}
 ]
-
 # 1. 輸入化合物
 # 2. 找到化合物的全名
 # 3. 且找到園子含量
 # periodic_Symbol= input("輸入元素:  ")
 # periodic_Element = [item['Element'] for item in periodic_table if item['Symbol'] == periodic_Symbol]
-
 # print("這個化合物的全名為:",periodic_Element)
-
-
 # 判斷是否為 "-"
 # 判斷是否為數字
 # H2-O
@@ -137,27 +133,84 @@ periodic_table = [
 # [1]，[3] 必為數字或符號
 # [0]，[2] 必為英文字母
 periodic_Compound = input("輸入化學式: ")
-periodic_list = periodic_Compound.split('-') # 文字處理
+periodic_List = list(periodic_Compound)
+print(periodic_List)
 
 
+# C-O2
+# List[1] Have -
+# List[3] Have number
+# List[0] List[2] Have element
 
-# 建立一個找到元素全名的函式
+# H2-O
+# List[1] Have number
+# List[2] Have -
+# List[0] List[3] Have element
+# find 全名
 def periodict_Element(element):
     periodic_element = [item['Element'] for item in periodic_table if item['Symbol'] == element]
     return periodic_element
 
-print("化學元素:", periodict_Element(periodic_list[0]),periodict_Element(periodic_list[1]))
-
-# 找到相對應的原子量
 def periodict_AtomicMass(element):
     periodic_element = [item['AtomicMass'] for item in periodic_table if item['Symbol'] == element]
     return periodic_element
 
-print("化學原子量:", periodict_AtomicMass(periodic_list[0]),periodict_AtomicMass(periodic_list[1]))
+element = []
+atomicmass = []
+atomicmass_number = []
 
+iteration = 0
+for index in periodic_List:
+    if index[iteration].isalpha():
+        periodict_Element(index[iteration])
+        element.append(periodict_Element(index[iteration]))
+        atomicmass.append(periodict_AtomicMass(index[iteration]))
+        #放入元素列表之中
+        if index[iteration].isdigit():
+            atomicmass_number.append(index[iteration])
+            # print("原子數量 1:", index[iteration])
+
+            #放入原子量中
+            if index[iteration] == "-":
+                index[iteration+1]
+                if index[iteration].isalpha():
+                    element.append(periodict_Element(index[iteration]))
+                    atomicmass.append(periodict_AtomicMass(index[iteration]))
+                    # 放入元素列表之中
+        elif index[iteration] == "-":
+                index[iteration+1]
+                if index[iteration].isalpha():
+                    periodict_Element(index[iteration])
+                    element.append(periodict_Element(index[iteration]))
+                    atomicmass.append(periodict_AtomicMass(index[iteration]))
+                    # 放入元素列表之中
+                    if index[iteration].isdigit():
+                        atomicmass_number.append(index[iteration])
+                        # print("原子數量 2:", index[3])
+                        # 放入原子量中
+
+
+
+
+
+
+lst_str1 = " ".join(str(answer1_x) for answer1_x in element[0])
+lst_str2 = " ".join(str(answer1_x) for answer1_x in element[1])
+print("化學元素:", lst_str1, lst_str2)
+
+# print("原子總量:", atomicmass)
 # 總化學含量
-answer1 = periodict_AtomicMass(periodic_list[0])
-answer2 = periodict_AtomicMass(periodic_list[1])
+str1 = " ".join(str(answer1_x) for answer1_x in atomicmass[0])
+float1 = float(str1)
+str2 = " ".join(str(answer2_x) for answer2_x in atomicmass[1])
+float2 = float(str2)
+SUM = float1 + float2
+
+# print("化學原子量:", float1, float2)
+print("總量:", SUM)
+
+
+
 
 
 

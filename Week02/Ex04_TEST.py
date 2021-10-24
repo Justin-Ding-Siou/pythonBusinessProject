@@ -1,3 +1,5 @@
+import string
+
 periodic_table = [
     {"AtomicNumber":1,"Element":"Hydrogen","Symbol":"H","AtomicMass":1.007,"NumberofNeutrons":0,"NumberofProtons":1,"NumberofElectrons":1,"Period":1,"Group":1,"Phase":"gas","Radioactive":"","Natural":"yes","Metal":"","Nonmetal":"yes","Metalloid":"","Type":"Nonmetal","AtomicRadius":0.79,"Electronegativity":2.2,"FirstIonization":13.5984,"Density":0.0000899,"MeltingPoint":14.175,"BoilingPoint":20.28,"NumberOfIsotopes":3,"Discoverer":"Cavendish","Year":1766,"SpecificHeat":14.304,"NumberofShells":1,"NumberofValence":1},
     {"AtomicNumber":2,"Element":"Helium","Symbol":"He","AtomicMass":4.002,"NumberofNeutrons":2,"NumberofProtons":2,"NumberofElectrons":2,"Period":1,"Group":18,"Phase":"gas","Radioactive":"","Natural":"yes","Metal":"","Nonmetal":"yes","Metalloid":"","Type":"Noble Gas","AtomicRadius":0.49,"Electronegativity":"","FirstIonization":24.5874,"Density":0.000179,"MeltingPoint":"","BoilingPoint":4.22,"NumberOfIsotopes":5,"Discoverer":"Janssen","Year":1868,"SpecificHeat":5.193,"NumberofShells":1,"NumberofValence":""},
@@ -119,24 +121,56 @@ periodic_table = [
     {"AtomicNumber":118,"Element":"Oganesson","Symbol":"Og","AtomicMass":294,"NumberofNeutrons":176,"NumberofProtons":118,"NumberofElectrons":118,"Period":7,"Group":18,"Phase":"artificial","Radioactive":"yes","Natural":"","Metal":"","Nonmetal":"yes","Metalloid":"","Type":"Noble Gas","AtomicRadius":"","Electronegativity":"","FirstIonization":"","Density":"","MeltingPoint":"","BoilingPoint":"","NumberOfIsotopes":"","Discoverer":"","Year":2006,"SpecificHeat":"","NumberofShells":7,"NumberofValence":8}
 ]
 
-print()
-# 1. 找出週期內的固態
-# 2. 是否有放射性，在一是否為金屬 desc sorted(list, lambda)
-# 當我們把 reverse 設成 True 的時候，會把排序的結果由預設的 ascending 改成 descending
-solid_elements_test = [item for item in periodic_table if item['Phase'] == 'solid']
-print(*solid_elements_test)
-# second sorted
-solid_lst3 = sorted(solid_elements_test, key=lambda x: x['Metal'], reverse=True)
-# first sort
-solid_lst3.sort(key=lambda x: x['Radioactive'], reverse=True)
+# 1. 輸入化合物
+# 2. 找到化合物的全名
+# 3. 且找到園子含量
+# periodic_Symbol= input("輸入元素:  ")
+# periodic_Element = [item['Element'] for item in periodic_table if item['Symbol'] == periodic_Symbol]
+
+# print("這個化合物的全名為:",periodic_Element)
 
 
-for x in solid_lst3:
-    print("{:>2d} {:2s} {:3s} {:3s}".format(x['AtomicNumber'], x['Symbol'], x["Radioactive"], x['Metal']))
+# 判斷是否為 "-"
+# 判斷是否為數字
+# H2-O
+# C-O2
+# [1]，[3] 必為數字或符號
+# [0]，[2] 必為英文字母
+while True:
+    periodic_Compound = input("輸入化學式: ")
+    periodic_list = periodic_Compound.split('-') # 文字處理
+    # 建立一個找到元素全名的函式
+    def periodict_Element(element):
+        periodic_element = [item['Element'] for item in periodic_table if item['Symbol'] == element]
+        return periodic_element
 
-# 當字串長度大於 2時，前方加入空白
-# 當
-print()
-solid_lst4 = sorted(solid_elements_test, key=lambda x: (x['Radioactive'], x['Metal']), reverse=True)
-for item in solid_lst4:
-    print("{:>2d} {:2s} {:3s} {:3s}".format(item['AtomicNumber'], item['Symbol'], item['Radioactive'], item['Metal']))
+
+    lst_str1 = " ".join(str(answer1_x) for answer1_x in periodict_Element(periodic_list[0]))
+    lst_str2 = " ".join(str(answer1_x) for answer1_x in periodict_Element(periodic_list[1]))
+    print("化學元素:", lst_str1, lst_str2)
+
+    # 找到相對應的原子量
+    def periodict_AtomicMass(element):
+        periodic_element = [item['AtomicMass'] for item in periodic_table if item['Symbol'] == element]
+        return periodic_element
+
+    # 總化學含量
+    answer1 = periodict_AtomicMass(periodic_list[0])
+    answer2 = periodict_AtomicMass(periodic_list[1])
+    str1 = " ".join(str(answer1_x) for answer1_x in answer1)
+    float1 = float(str1)
+    str2 = " ".join(str(answer2_x) for answer2_x in answer2)
+    float2 = float(str2)
+
+    SUM = float1 + float2
+
+    print("化學原子量:", float1, float2)
+    print("總量:", SUM)
+    if periodic_Compound == "sp-dn":
+        break
+
+
+
+
+
+
