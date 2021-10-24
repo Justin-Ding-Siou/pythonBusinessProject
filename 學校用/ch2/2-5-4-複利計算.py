@@ -1,0 +1,8 @@
+money = int(input('請輸入本金？'))
+interest = float(input('請輸入年利率(%)？'))
+y1 = money * (1 + interest/100)
+y2 = money * ((1 + interest/100) ** 2)
+y3 = money * ((1 + interest/100) ** 3)
+print('第一年本利和為', y1)
+print('第二年本利和為', y2)
+print('第三年本利和為', y3)
