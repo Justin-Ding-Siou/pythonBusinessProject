@@ -13,39 +13,30 @@ news = '''
 
 瑞巴里希強調：「我們還有其他手段來減輕在運河斷航期間對美國中央司令部負責地區的行動影響和支援。」'''
 
-# 複製原始新聞字串
+# 測試學習
 s = news[0:]
 
-# 移除標點符號
 chars_to_remove = ' .,：，。、／〔〕（）《》「」\n'
 for char in chars_to_remove:
-  s = s.replace(char, '')
+    s = s.replace(char, '')
+# s = news[0: ] 與 char = chars_to_remove 進行比對，如果有chars_to_remove的內容，將之移除
 
-# print(s)
-
-# 轉換成字元的集合
 char_set = set(s)
+# 將字串轉為字元
 
-# 印出字集
+# 印出處理，由 index 由小到大
 sorted_chars = sorted(char_set, key=news.index)
-# print("新聞用字集:", sorted_chars)
 
-# 建構字元字典, 
+# 建構字典
 char_dict = {}
-# Simple way
-# for c in s:
-  # if c not in char_dict:
-    # char_dict[c] = 1
-  # else:
-    # char_dict[c] += 1
 
-# Using string.count(c)   
+# 找到高頻單字
 for w in sorted_chars:
     n = s.count(w)
     char_dict[w] = n
 
 
-# 依出現次數排序
+# 依出現次數排序，由大到小，前五個
 c_sorted = sorted(char_dict.items(), key=lambda x: x[1], reverse=True)
 print("\n最常用的5個字元:", c_sorted[0:5])
 
@@ -55,8 +46,9 @@ zh_set = sorted(char_set - en_set, key=news.index)
 print("\n不重覆英文字元有 %d 個: %s" % (len(en_set), list(en_set)))
 print("\n不重覆中文字元有 %d 個: %s" % (len(zh_set), zh_set))
 
-# print("他們出現的位置:")
-# for k, v in c_sorted[0:5]:
-  # positions = [i for (i, c) in enumerate(news) if c == k]
-  # print('{}: {}'.format(k, positions))
+
+print("他們出現的位置:")
+for k, v in c_sorted[0:5]:
+  positions = [i for (i, c) in enumerate(news) if c == k]
+  print('{}: {}'.format(k, positions))
   
