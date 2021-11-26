@@ -1,0 +1,482 @@
+{
+   "s1071176":{
+      "Calculus":70,
+      "Physics":80,
+      "Economics":90,
+      "Biology":80,
+      "Data Networks":60,
+      "Chemistry":80
+   },
+   "s1071121":{
+      "Accounting":90,
+      "English":70,
+      "Python":50,
+      "Calculus":50,
+      "Data Networks":60,
+      "Algorithms":70
+   },
+   "s1071272":{
+      "Python":90,
+      "Data Structures":60,
+      "Algorithms":60,
+      "Calculus":60,
+      "Discrete Math":50,
+      "Management":80
+   },
+   "s1071258":{
+      "Discrete Math":70,
+      "Economics":90,
+      "Accounting":50,
+      "Biology":70,
+      "Python":50,
+      "Data Structures":50
+   },
+   "s1071196":{
+      "Chemistry":80,
+      "Data Networks":80,
+      "Physics":90,
+      "Discrete Math":50,
+      "Management":90,
+      "Accounting":90
+   },
+   "s1071266":{
+      "Data Networks":60,
+      "Algorithms":80,
+      "Discrete Math":60,
+      "Economics":50,
+      "Biology":80,
+      "Management":50
+   },
+   "s1071109":{
+      "Biology":90,
+      "Chemistry":90,
+      "Data Networks":80,
+      "Accounting":80,
+      "Calculus":90,
+      "English":90
+   },
+   "s1071173":{
+      "Data Networks":60,
+      "Python":70,
+      "Calculus":90,
+      "Biology":70,
+      "Algorithms":70,
+      "Discrete Math":60
+   },
+   "s1071243":{
+      "Algorithms":70,
+      "Calculus":50,
+      "Python":80,
+      "Data Networks":50,
+      "Economics":90,
+      "Biology":80
+   },
+   "s1071117":{
+      "Data Networks":90,
+      "Algorithms":80,
+      "Accounting":80,
+      "Data Structures":90,
+      "Economics":85,
+      "Discrete Math":80
+   },
+   "s1071119":{
+      "Data Networks":60,
+      "Calculus":60,
+      "Physics":50,
+      "Biology":50,
+      "Chemistry":60,
+      "Python":50
+   },
+   "s1071198":{
+      "Data Networks":80,
+      "English":60,
+      "Independent Study":50,
+      "Calculus":90,
+      "Discrete Math":50,
+      "Algorithms":60
+   },
+   "s1071275":{
+      "Independent Study":70,
+      "Accounting":70,
+      "English":60,
+      "Management":50,
+      "Chemistry":80,
+      "Data Structures":80
+   },
+   "s1071232":{
+      "Management":80,
+      "Calculus":80,
+      "Algorithms":50,
+      "Physics":50,
+      "Biology":70,
+      "Data Structures":80
+   },
+   "s1071151":{
+      "Data Structures":80,
+      "English":80,
+      "Independent Study":50,
+      "Python":80,
+      "Discrete Math":50,
+      "Physics":70
+   },
+   "s1071183":{
+      "English":90,
+      "Chemistry":80,
+      "Biology":80,
+      "Physics":90,
+      "Independent Study":70,
+      "Data Networks":90
+   },
+   "s1071220":{
+      "Independent Study":80,
+      "Algorithms":80,
+      "Management":90,
+      "Calculus":60,
+      "Accounting":80,
+      "Python":80
+   },
+   "s1071270":{
+      "Algorithms":60,
+      "Data Networks":60,
+      "English":60,
+      "Accounting":70,
+      "Calculus":50,
+      "Economics":50
+   },
+   "s1071105":{
+      "Data Structures":60,
+      "Economics":50,
+      "Accounting":60,
+      "Python":60,
+      "Management":60,
+      "Independent Study":60
+   },
+   "s1071206":{
+      "Algorithms":70,
+      "Python":70,
+      "Independent Study":90,
+      "Economics":80,
+      "Physics":70,
+      "Biology":80
+   },
+   "s1071251":{
+      "Chemistry":50,
+      "Management":70,
+      "Data Structures":50,
+      "Algorithms":50,
+      "Discrete Math":50,
+      "Accounting":90
+   },
+   "s1071274":{
+      "Discrete Math":80,
+      "Data Structures":80,
+      "Management":70,
+      "Chemistry":90,
+      "Accounting":90,
+      "Biology":80
+   },
+   "s1071291":{
+      "Calculus":50,
+      "Management":80,
+      "Python":50,
+      "Accounting":60,
+      "Discrete Math":60,
+      "Physics":80
+   },
+   "s1071234":{
+      "Python":70,
+      "Data Structures":90,
+      "Management":70,
+      "Economics":90,
+      "Biology":70,
+      "Discrete Math":60
+   },
+   "s1071250":{
+      "Management":90,
+      "Independent Study":80,
+      "English":80,
+      "Calculus":90,
+      "Python":60,
+      "Algorithms":70
+   },
+   "s1071142":{
+      "Accounting":80,
+      "Economics":50,
+      "Chemistry":90,
+      "Discrete Math":90,
+      "Data Networks":90,
+      "Biology":90
+   },
+   "s1071143":{
+      "Data Structures":70,
+      "Economics":90,
+      "Independent Study":90,
+      "Accounting":60,
+      "Physics":90,
+      "English":80
+   },
+   "s1071106":{
+      "Economics":50,
+      "Accounting":50,
+      "Physics":50,
+      "Biology":50,
+      "English":60,
+      "Discrete Math":55
+   },
+   "s1071228":{
+      "Calculus":50,
+      "Python":90,
+      "Algorithms":60,
+      "Physics":60,
+      "Management":90,
+      "Accounting":80
+   },
+   "s1071252":{
+      "Physics":50,
+      "Discrete Math":70,
+      "English":90,
+      "Python":70,
+      "Calculus":50,
+      "Biology":60
+   },
+   "s1071247":{
+      "Independent Study":80,
+      "Biology":50,
+      "Data Structures":50,
+      "Data Networks":80,
+      "Accounting":90,
+      "Python":80
+   },
+   "s1071155":{
+      "Data Structures":60,
+      "Management":80,
+      "English":50,
+      "Economics":50,
+      "Python":70,
+      "Accounting":70
+   },
+   "s1071218":{
+      "Chemistry":80,
+      "Economics":60,
+      "Python":70,
+      "Calculus":80,
+      "Data Networks":60,
+      "Accounting":70
+   },
+   "s1071222":{
+      "Management":80,
+      "Independent Study":90,
+      "Accounting":70,
+      "Python":90,
+      "Algorithms":70,
+      "中文":70
+   },
+   "s1071101":{
+      "Data Structures":50,
+      "Biology":60,
+      "Calculus":60,
+      "Discrete Math":50,
+      "中文":70,
+      "Chemistry":60
+   },
+   "s1071122":{
+      "Data Networks":50,
+      "Algorithms":50,
+      "Accounting":60,
+      "Discrete Math":50,
+      "Management":70,
+      "Calculus":90
+   },
+   "s1071112":{
+      "Accounting":80,
+      "Biology":90,
+      "Independent Study":90,
+      "Algorithms":80,
+      "Data Structures":90,
+      "Chemistry":80
+   },
+   "s1071141":{
+      "Calculus":50,
+      "Independent Study":60,
+      "Data Structures":90,
+      "Biology":70,
+      "English":80,
+      "Discrete Math":70
+   },
+   "s1071257":{
+      "Algorithms":50,
+      "Independent Study":90,
+      "Data Networks":80,
+      "English":80,
+      "Management":80,
+      "Calculus":70
+   },
+   "s1071262":{
+      "中文":60,
+      "Biology":70,
+      "Economics":60,
+      "Chemistry":70,
+      "Calculus":90,
+      "Discrete Math":80
+   },
+   "s1071233":{
+      "Biology":50,
+      "Calculus":70,
+      "Independent Study":70,
+      "Data Networks":60,
+      "English":90,
+      "Accounting":60
+   },
+   "s1071231":{
+      "English":80,
+      "Management":60,
+      "Economics":90,
+      "Calculus":80,
+      "Independent Study":50,
+      "Physics":90
+   },
+   "s1071153":{
+      "Python":80,
+      "English":50,
+      "Economics":80,
+      "Physics":70,
+      "Algorithms":80,
+      "Calculus":50
+   },
+   "s1071102":{
+      "Calculus":90,
+      "Management":90,
+      "Discrete Math":80,
+      "Python":80,
+      "Data Networks":80,
+      "Algorithms":80
+   },
+   "s1071163":{
+      "Accounting":80,
+      "Data Structures":50,
+      "English":60,
+      "Discrete Math":80,
+      "Python":90,
+      "Data Networks":90
+   },
+   "s1071203":{
+      "Chemistry":70,
+      "Algorithms":50,
+      "Python":50,
+      "Economics":60,
+      "Data Structures":50,
+      "Biology":90
+   },
+   "s1071296":{
+      "Data Structures":80,
+      "Data Networks":60,
+      "Algorithms":70,
+      "Calculus":70,
+      "Chemistry":60,
+      "Accounting":50
+   },
+   "s1071195":{
+      "Calculus":90,
+      "Data Networks":70,
+      "Chemistry":80,
+      "Independent Study":60,
+      "Python":80,
+      "Management":80
+   },
+   "s1071182":{
+      "Management":90,
+      "Economics":60,
+      "Chemistry":80,
+      "Data Networks":70,
+      "Discrete Math":60,
+      "Physics":60
+   },
+   "s1071104":{
+      "Calculus":80,
+      "Chemistry":90,
+      "Management":80,
+      "Biology":90,
+      "Economics":90,
+      "Independent Study":90
+   },
+   "s1071123":{
+      "English":70,
+      "Biology":80,
+      "Management":90,
+      "Independent Study":80,
+      "Data Structures":80,
+      "Chemistry":90
+   },
+   "s1071167":{
+      "Python":90,
+      "Physics":70,
+      "Algorithms":50,
+      "Discrete Math":60,
+      "Management":60,
+      "Economics":90
+   },
+   "s1071180":{
+      "Data Structures":60,
+      "Accounting":60,
+      "English":50,
+      "Calculus":70,
+      "Management":70,
+      "Data Networks":60
+   },
+   "s1071265":{
+      "Biology":90,
+      "Management":80,
+      "Chemistry":90,
+      "Data Networks":60,
+      "Calculus":90,
+      "Python":50
+   },
+   "s1071221":{
+      "Algorithms":90,
+      "Discrete Math":70,
+      "Biology":80,
+      "Accounting":60,
+      "Independent Study":50,
+      "Management":90
+   },
+   "s1071294":{
+      "Physics":70,
+      "English":70,
+      "Independent Study":50,
+      "Management":80,
+      "Accounting":50,
+      "Calculus":70
+   },
+   "s1071157":{
+      "Discrete Math":70,
+      "English":90,
+      "Physics":50,
+      "Independent Study":50,
+      "Python":50,
+      "Management":60
+   },
+   "s1071188":{
+      "Physics":80,
+      "Python":90,
+      "Management":90,
+      "Accounting":50,
+      "Data Networks":90,
+      "Economics":90
+   },
+   "s1071165":{
+      "Data Networks":80,
+      "Python":80,
+      "Physics":70,
+      "Data Structures":80,
+      "English":90,
+      "Management":50
+   },
+   "s1071186":{
+      "Accounting":80,
+      "Data Networks":90,
+      "Management":50,
+      "English":80,
+      "Biology":80,
+      "Chemistry":80
+   }
+}
