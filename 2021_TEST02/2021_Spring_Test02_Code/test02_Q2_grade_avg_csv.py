@@ -11,7 +11,7 @@ filepath = os.path.join(infolder, filename)
 
 credits_dict = {} # {course: credits}
 
-with open(filepath, encoding='utf-8') as f: 
+with open('C://Users/Ting/PycharmProjects/pythonBusinessProject/2021_TEST02/2021_Spring_Test02_Code/data/credits_all.txt', encoding='utf-8') as f: 
     for line in f:
         words = line.strip().split(":")
         # print(words)
@@ -28,7 +28,7 @@ jsonfile = "grades.json"
 jsonpath = os.path.join(infolder, jsonfile)
 grade_dict = {}
 
-with open(jsonpath, encoding='utf-8') as f:
+with open('C://Users/Ting/PycharmProjects/pythonBusinessProject/2021_TEST02/2021_Spring_Test02_Code/data/grades.json', encoding='utf-8') as f:
   data = f.read()
   grade_dict = json.loads(data)
 

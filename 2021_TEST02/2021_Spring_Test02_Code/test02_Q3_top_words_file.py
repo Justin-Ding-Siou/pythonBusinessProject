@@ -3,7 +3,8 @@ import csv
 import re
 
 # Read text as a string
-with open("news.txt", encoding='utf-8') as f:
+# 上傳前要改為，news.txt 原檔名
+with open("2021_Spring_Test02_Code/news.txt", encoding='utf-8') as f:
   news = f.read()
 
 # print(news)
@@ -51,7 +52,7 @@ rows_sorted = sorted(rows, key=lambda x: x[1], reverse=True)
 
 # 存入 csv
 import os
-path = 'output'
+path = '2021_Spring_Test02_Code/output'
 filename = 'news_word_counts.csv'
 filepath = f'{path}/{filename}'
 os.makedirs(path, exist_ok= True)
