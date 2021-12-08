@@ -1,0 +1,10 @@
+去年（2020）WWDC 全球開發者大會時，Apple 就明指將在兩年內從原本的 Intel（英特爾）處理器過渡到自家研發的 Apple Silicon 處理器，這與意味著未來 Mac 電腦將全面捨棄 x86 架構而轉向 ARM 架構。
+
+由於 Apple 陸續推出搭載 M1 處理器的 MacBook Air、MacBook Pro、iMac 和 Mac mini 等產品，據市調公司的研究，這使 Apple 直接躍升成為 ARM 電腦市場的唯一龍頭，尤其在 ARM 筆記型電腦市場更佔去 80% 的份額。
+
+
+透過市調公司《Strategy Analytics》的報告，發現 ARM 電腦市場正以非常快的速度持續增長，研究發現 Apple 幾乎是帶領整個 ARM 電腦產品最大的參與者，並預計將在 2021 年達到 79% 的 ARM 筆記型電腦市場佔有率。
+
+《Strategy Analytics》指出，由於 Apple 即將在 10 月 18 日正式公開全新 MacBook Pro 系列，並採用強化過後的 M1X 處理器，在性能方面將比 M1 獲得翻倍以上的成果，而這也將帶動 ARM 筆電市場，2021 年總產值將成長三倍達到 9.49 億美元（約新台幣 265 億元）。
+
+除了 Apple 外，聯發科（MediaTek）近年在 ARM 電腦市場也獲得不錯的成長，目前市佔為 18%，而高通（Qualcomm）則為 3%，排行第三。
