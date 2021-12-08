@@ -1,0 +1,1 @@
+f = open("periodic_table.txt", "r", encoding='utf-8')
