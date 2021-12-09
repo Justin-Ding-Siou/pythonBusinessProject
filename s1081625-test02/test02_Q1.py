@@ -24,6 +24,7 @@ print("現在時間:", now)
 print()
 
 # zipfile example
+
 def zip_dir(path):
     zf = zipfile.ZipFile('{}.zip'.format(path), 'w', zipfile.ZIP_DEFLATED)
 
