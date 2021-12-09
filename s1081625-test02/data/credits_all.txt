@@ -5,13 +5,13 @@ Python: 3
  Calculus:   3
  Accounting: 3
  Management   : 3
- Physics  : 3  
+ Physics  : 3
  English :  2   
  Chemistry: 3
- Biology :   3
+ Biology:   3
  Data Structures:  3
  Data Base : 3
-    Data Mining: 3  
+ Data Mining: 3
  Data Analytics:  3
  Computer Network: 3
  Independent Study:  2

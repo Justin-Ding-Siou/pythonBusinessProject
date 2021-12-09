@@ -12,7 +12,7 @@ filepath = os.path.join(infolder, filename)
 credits_dict = {} # {course: credits}
 # 檔案路徑要改為由 \ = /，注意是在電腦上看的
 # 之後上傳後，經由 pycharm確認，改為 filepath
-with open('C://Users/Ting/PycharmProjects/pythonBusinessProject/2021_TEST02/TEST2_PRACTICE/data/credits_all.txt', encoding='utf-8') as f: 
+with open(filepath, encoding='utf-8') as f:
     for line in f:
         words = line.strip().split(":") # 去掉每列的 :
         # print(words)
@@ -30,7 +30,7 @@ jsonfile = "grades.json"
 jsonpath = os.path.join(infolder, jsonfile)
 grade_dict = {}
 
-with open('C://Users/Ting/PycharmProjects/pythonBusinessProject/2021_TEST02/TEST2_PRACTICE/data/grades.json', encoding='utf-8') as f:
+with open(jsonpath, encoding='utf-8') as f:
   data = f.read()
   grade_dict = json.loads(data)
 

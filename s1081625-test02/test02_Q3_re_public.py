@@ -2,6 +2,7 @@
 import re
 
 # all the following formats are valid
+
 phones = [
 '(02) 2345-8738',
 '(03) 463-8800',
@@ -19,24 +20,29 @@ phones = [
 ]
 
 # Simple regex
-print("First Try:")
+# print("First Try:")
 
-regex = r'^\(?\d{2,3}\)? ?\d{4} ?\d{3,4}$'
+# regex = r'^\(?\d{2,3}\)? ?\d{4} ?\d{3,4}$'
 
+# or phone in phones:
+  # match = re.search(regex, phone)
+  # if match:
+    # print(phone)
+# print()
+
+
+# More elaborated regex
+regex2 = r'^\([\(]{1}|\d{2}\)?[\(]?[ -]?\d{3,4}[ -]?\d{3,4}$'
+
+# print(s)
+print("Try:")
 for phone in phones:
-  match = re.search(regex, phone)
+  match = re.search(regex2, phone)
   if match:
     print(phone)
 print()
 
 
-# More elaborated regex
-regex2 = r'^\(?\d{2,3}\)?[ -]?\d{3,4}[ -]?\d{3,4}$'
 
-# print(s)
-print("Second Try:")
-for phone in phones:
-  match = re.search(regex2, phone)
-  if match:
-    print(phone)
+
 
