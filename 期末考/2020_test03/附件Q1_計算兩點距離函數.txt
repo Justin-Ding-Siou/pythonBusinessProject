@@ -1,0 +1,32 @@
+# 參數 （緯度1, 經度1, 緯度2, 經度2)
+# 距離單位： 公里
+# 使用範例: distance = geo_distance(52.22967, 21.0122287, 52.406374, 16.9251681)
+#      
+def geo_distance(lat1, lon1, lat2, lon2):
+    from math import radians, sin, cos, atan2, sqrt
+
+    slat = radians(abs(lat1))
+    slon = radians(abs(lon1))
+    elat = radians(abs(lat2))
+    elon = radians(abs(lon2))
+
+    R = 6373
+    phi1, phi2 = radians(lat1), radians(lat2) 
+    dphi       = radians(lat2 - lat1)
+    dlambda    = radians(lon2 - lon1)
+    
+    a = sin(dphi/2)**2 + \
+        cos(phi1)*cos(phi2)*sin(dlambda/2)**2
+    
+    c = atan2(sqrt(a), sqrt(1 - a))
+    
+    dist = 2 * R * c
+    
+    #print("The distance is %.4fkm." % dist)
+    
+    return dist
+      
+
+# yzu main gate: (24.969992, 121.263360)
+yzu_lan = 24.969992
+yzu_lon = 121.263360

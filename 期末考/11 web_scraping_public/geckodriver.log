@@ -1,0 +1,178 @@
+1589265600126	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cjluh\\AppData\\Local\\Temp\\rust_mozprofileSuNwiO"
+1589265601078	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589265601738	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589265601738	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589265601738	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589265601738	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589265603839	Marionette	INFO	Listening on port 2682
+1589265603867	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N2VZFG, line 1869: uncaught exception: [object Object]
+JavaScript error: https://shop.maoup.com.tw/ line 1869 > scriptElement, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N2VZFG, line 1869: uncaught exception: [object Object]
+JavaScript error: https://shop.maoup.com.tw/ line 1869 > scriptElement, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N2VZFG, line 1869: uncaught exception: [object Object]
+JavaScript error: https://shop.maoup.com.tw/ line 1869 > scriptElement, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N2VZFG, line 1869: uncaught exception: [object Object]
+JavaScript error: https://shop.maoup.com.tw/ line 1869 > scriptElement, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N2VZFG, line 1869: uncaught exception: [object Object]
+JavaScript error: https://shop.maoup.com.tw/ line 1869 > scriptElement, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N2VZFG, line 1869: uncaught exception: [object Object]
+JavaScript error: https://shop.maoup.com.tw/ line 1869 > scriptElement, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N2VZFG, line 1869: uncaught exception: [object Object]
+JavaScript error: https://shop.maoup.com.tw/ line 1869 > scriptElement, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N2VZFG, line 1869: uncaught exception: [object Object]
+JavaScript error: https://shop.maoup.com.tw/ line 1869 > scriptElement, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N2VZFG, line 1869: uncaught exception: [object Object]
+JavaScript error: https://shop.maoup.com.tw/ line 1869 > scriptElement, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N2VZFG, line 1869: uncaught exception: [object Object]
+JavaScript error: https://shop.maoup.com.tw/ line 1869 > scriptElement, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N2VZFG, line 1869: uncaught exception: [object Object]
+JavaScript error: https://shop.maoup.com.tw/ line 1869 > scriptElement, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N2VZFG, line 1869: uncaught exception: [object Object]
+JavaScript error: https://shop.maoup.com.tw/ line 1869 > scriptElement, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N2VZFG, line 1869: uncaught exception: [object Object]
+JavaScript error: https://shop.maoup.com.tw/ line 1869 > scriptElement, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N2VZFG, line 1869: uncaught exception: [object Object]
+JavaScript error: https://shop.maoup.com.tw/ line 1869 > scriptElement, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N2VZFG, line 1869: uncaught exception: [object Object]
+JavaScript error: https://shop.maoup.com.tw/ line 1869 > scriptElement, line 1: TypeError: document.getElementById(...) is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-N2VZFG, line 1869: uncaught exception: [object Object]
+JavaScript error: https://shop.maoup.com.tw/ line 1869 > scriptElement, line 6: TypeError: document.getElementById(...) is null
+JavaScript warning: https://static.zotabox.com/__koniyzu/bundle.js, line 282: unreachable code after return statement
+JavaScript warning: https://static.zotabox.com/__koniyzu/bundle.js, line 2911: unreachable code after return statement
+JavaScript warning: https://static.zotabox.com/__koniyzu/bundle.js, line 2911: unreachable code after return statement
+JavaScript warning: https://static.zotabox.com/__koniyzu/bundle.js, line 282: unreachable code after return statement
+1589279820659	Marionette	INFO	Stopped listening on port 2682
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ "-profile" "C:\\Users\\cjluh\\AppData\\Local\\Temp\\rust_mozprofileK4RqNF"
+1589265750107	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589265750742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589265750742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589265750742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589265750742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589265752745	Marionette	INFO	Listening on port 2808
+1589265752892	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.decathlon.tw/zh/series/#s3 line 1226 > scriptElement, line 1: ReferenceError: remoteScript_y is not defined
+JavaScript warning: https://www.taipeiads.com/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.taipeiads.com/js/twitter/tweet.js, line 1: SyntaxError: expected expression, got '<'
+1589265775710	Marionette	INFO	Stopped listening on port 2808
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596185751320	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CJLuh\\AppData\\Local\\Temp\\rust_mozprofileswZg2i"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1596185754409	Marionette	INFO	Listening on port 14554
+1596185754440	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.decathlon.tw/zh/series/#s3 line 1232 > scriptElement, line 1: ReferenceError: remoteScript_y is not defined
+JavaScript warning: https://www.taipeiads.com/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.taipeiads.com/js/twitter/tweet.js, line 1: SyntaxError: expected expression, got '<'
+1596185776160	Marionette	INFO	Stopped listening on port 14554
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596186470933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CJLuh\\AppData\\Local\\Temp\\rust_mozprofileMUCoO4"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1596186476095	Marionette	INFO	Listening on port 1665
+1596186476227	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-850a652053be97726b9c.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://www.bloomberg.com/quote/SPX:IND, line 32: TypeError: videoFrame.contentWindow.document.getElementsByClassName(...)[0] is undefined
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt/202007291639/wrap.js, line 19: unreachable code after return statement
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: uncaught exception: Maximum retries reached
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://assets.bwbx.io/s3/bbgmkts/assets/quote-3a455827415a43bcf8ef.js, line 44: TypeError: this.__googletag.cmd is undefined
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://assets.bwbx.io/s3/bbgmkts/assets/quote-3a455827415a43bcf8ef.js, line 44: TypeError: this.__googletag.cmd is undefined
+JavaScript error: https://assets.bwbx.io/s3/bbgmkts/assets/quote-3a455827415a43bcf8ef.js, line 44: TypeError: this.__googletag.cmd is undefined
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1596209793458	Marionette	INFO	Stopped listening on port 1665
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1608178626542	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cjluh\\AppData\\Local\\Temp\\rust_mozprofile6KPUPJ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608178640679	Marionette	INFO	Listening on port 11494
+1608178640861	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+JavaScript error: https://decathlontw.api.useinsider.com/ins.js?id=10002606, line 1: ReferenceError: Notification is not defined
+JavaScript error: https://www.decathlon.tw/zh/series/#s3 line 1496 > injectedScript, line 1: ReferenceError: remoteScript_y is not defined
+JavaScript warning: https://www.taipeiads.com/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1608178703285	Marionette	INFO	Stopped listening on port 11494
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1608178774981	geckodriver	INFO	Listening on 127.0.0.1:11721
+1608178777891	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cjluh\\AppData\\Local\\Temp\\rust_mozprofileRvcWFJ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608178781590	Marionette	INFO	Listening on port 11729
+1608178782046	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+JavaScript error: https://decathlontw.api.useinsider.com/ins.js?id=10002606, line 1: ReferenceError: Notification is not defined
+JavaScript error: https://www.decathlon.tw/zh/series/#s3 line 1496 > injectedScript, line 1: ReferenceError: remoteScript_y is not defined
+JavaScript warning: https://www.taipeiads.com/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1608178841130	Marionette	INFO	Stopped listening on port 11729
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
