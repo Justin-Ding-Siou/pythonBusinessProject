@@ -7,7 +7,7 @@ cities = ['基隆市', '台北市', '新北市', '桃園市', '新竹市','新�
 for index, city in enumerate(cities):
         #剛剛在開發者模式觀察到的Post發出的資訊是那些
     data = {'strTargetField':'COUNTY','strKeyWords':'%s' % city}
-    res = requests.post('http://www.ibon.com.tw/#gsc.tab=0', data=data)
+    res = requests.post('https://www.ibon.com.tw/retail_inquiry_ajax.aspx', data=data)
         # 第一次迴圈建立dataframe，並將城市填入。資料的形式是table，所以直接使用read_html快速拿下!
     if index == 0:
         df_7_11_store = pd.read_html(res.text, header=0)[0]
